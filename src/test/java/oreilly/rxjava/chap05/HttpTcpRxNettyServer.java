@@ -13,6 +13,7 @@ public class HttpTcpRxNettyServer {
         "HTTP/1.1 200 OK\r\n" +
             "Content-length: 2\r\n\r\n"
     );
+
     public static void main(String[] args) {
         TcpServer
             .newServer(8080)
